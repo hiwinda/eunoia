@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+    <div class="eu-header navbar navbar-expand-lg">
+        <div class="eu-header__logo">
+            <a href="#">
+                <img width="147"
+                    src="assets/img/Logo-eunoia.png"
+                    alt="">
+            </a>
+        </div>
+        <div class="eu-header__navbar offcanvas offcanvas-collapse" id="offcanvasWithBackdrop">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" id="nav_home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="about.html" id="nav_about">
+                            About Us
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="active">
+                            <a href="about_our_team.html" id="nav_about_team" class="dropdown-item">Our Team</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="service.html" id="nav_service">
+                            Service
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="service_single.html" id="nav_service_single" class="dropdown-item">Single Service</a>
+                        </li>
+                        <li>
+                            <a href="service_pricing.html" id="nav_service_pricing" class="dropdown-item">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="service_portfolio.html" id="nav_service_portfolio" class="dropdown-item">Portfolio</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" id="nav_contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="#" id="nav_page">
+                            Page
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="blog.html" id="nav_blog" class="dropdown-toggle" data-toggle="dropdown">
+                                Blog
+                                <div class="d-none d-lg-inline ml-auto">
+                                    <span class="fas fa-angle-right"></span>
+                                </div>
+                                <div class="d-lg-none ml-auto">
+                                    <span class="fas fa-angle-down"></span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog_archieve.html" id="nav_blog_archieve">Archieve</a></li>
+                                <li><a href="blog_detail.html" id="nav_blog_single">Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="404.html" id="nav_404" class="dropdown-item">Error 404</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="eu-header__right">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+                <span class="navbar-toggler-icon fas fa-bars"></span>
+            </button>
+            <div class="eu-header__btn">
+                <a href="#" class="btn-gradient__green btn">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <!-- headline -->
+    <section class="eu-section__headline">
+        <div class="eu-background-overlay"></div>
+        <div class="eu-headline__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="eu-heading__h1">About Us</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="eu-headline__breadcrumb list-unstyled justify-content-sm-end">
+                            <li><span>Home</span></li>
+                            <li><span class="fas fa-chevron-right"></span></li>
+                            <li><span>About Us</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- headline 2 -->
+    <section class="eu-section__headline-middle">
+        <div class="container">
+            <div class="row align-items-lg-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="eu-headline__desc" data-aos="fade-right" data-aos-duration="4000">
+                        <h6 class="eu-heading__h6">
+                            WELCOME
+                        </h6>
+                        <h2 class="eu-heading__h2">Let's Make Better World With Technology</h2>
+                        <p class="eu-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <a href="#" class="btn btn-gradient__green btn mt-4">
+                            Discover More
+                            <span class="fas fa-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="eu-headline__middle-right">
+                        <div class="eu-circle__abs" data-aos="zoom-out" data-aos-duration="2000">
+                            <img src="assets/img/rounded_1-p4ok100.png" alt="">
+                        </div>
+                        <div class="eu-headline__photo" data-aos="fade-up" data-aos-duration="4000">
+                            <img src="assets/img/programmer.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- history -->
+    <section class="eu-section__history eu-bg__shadow p-0" data-aos="fade-right" data-aos-duration="4000">
+        <div class="eu-background-overlay eu-bg__diamond"></div>
+        <div class="eu-content__wrap">
+            <div class="eu-col__left" data-aos="fade-right" data-aos-duration="4000">
+                <div>
+                    <img src="assets/img/young-hacker.jpeg" alt="">
+                </div>
+            </div>
+            <div class="eu-col__right" data-aos="fade-left" data-aos-duration="4000">
+                <div class="eu-content__history">
+                    <h6 class="eu-heading__h6">HISTORY</h6>
+                    <h2 class="eu-heading__h2">We help brands and companies stand out in the digital age</h2>
+                    <p class="eu-heading__paragraph">
+                        Letius magnis finibus volutpat dictumst faucibus. Natoque taciti sed elementum vivamus adipiscing tincidunt ac. Laoreet taciti parturient magna. Fames dictumst nisl nam accumsan non lacinia ac. Molestie neque pellentesque volutpat libero facilisi ad. Mauris non tempor taciti vivamus tincidunt et. Tempor leo mauris laoreet consequat blandit.
+                    </p>
+                    <p class="eu-heading__paragraph">
+                        Habitant dui congue odio eget. Proin aliquam cras quam platea mattis. Semper tempus in hac iaculis mauris nunc dictumst. Cursus vehicula sodales est commodo iaculis dictumst.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our culture -->
+    <section class="eu-section__culture">
+        <div class="container">
+            <div class="eu-culture__content">
+                <h6 class="eu-heading__h6 text-center">OUR CULTURE</h6>
+                <h2 class="eu-heading__h2 text-center">Our Fundamental Business</h2>
+                <div class="eu-content__box mt-5" data-aos="fade-right" data-aos-duration="4000">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="eu-box">
+                                <div class="eu-box__item">
+                                    <div class="img-block">
+                                        <img src="assets/img/Server.png" alt="Database">
+                                    </div>
+                                    <div class="desc-bottom">
+                                        <h3 class="eu-heading__h3">Vision</h3>
+                                        <p class="eu-heading__paragraph">Vivamus posuere suscipit nulla maecenas et dapibus eros diam nec consequat aptent </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="eu-box">
+                                <div class="eu-box__item">
+                                    <div class="img-block">
+                                        <img src="assets/img/Processor.png" alt="Mission">
+                                    </div>
+                                    <div class="desc-bottom">
+                                        <h3 class="eu-heading__h3">Mission</h3>
+                                        <p class="eu-heading__paragraph">Vivamus posuere suscipit nulla maecenas et dapibus eros diam nec consequat aptent </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="eu-box">
+                                <div class="eu-box__item">
+                                    <div class="img-block">
+                                        <img src="assets/img/Fingerprint.png" alt="Motto">
+                                    </div>
+                                    <div class="desc-bottom">
+                                        <h3 class="eu-heading__h3">Motto</h3>
+                                        <p class="eu-heading__paragraph">Vivamus posuere suscipit nulla maecenas et dapibus eros diam nec consequat aptent </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eu-achievement__content">
+                <h6 class="eu-heading__h6 text-center">OUR ACHIEVEMENTS</h6>
+                <h2 class="eu-heading__h2 text-center">Our Prestigious Award</h2>
+                <p class="eu-heading__paragraph text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="eu-achievement__slide owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="eu-slide__item eu-item__height item">
+                        <img src="assets/img/logo-20_w.png" alt="chievement1">
+                    </div>
+                    <div class="eu-slide__item eu-item__height item">
+                        <img src="assets/img/logo-21_w.png" alt="achievement2">
+                    </div>
+                    <div class="eu-slide__item eu-item__height item">
+                        <img src="assets/img/logo-19_w.png" alt="achievement3">
+                    </div>
+                    <div class="eu-slide__item eu-item__height item">
+                        <img src="assets/img/Layer-10.png" alt="achievement4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="eu-section__team eu-bg__shadow">
+        <div class="eu-background-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="eu-box__bg bg-primary" data-aos="fade-down" data-aos-duration="4000">
+                        <h6 class="eu-heading__h6">MEET TEAM</h6>
+                        <h2 class="eu-heading__h2">Awesome People's Behind Us</h2>
+                        <p class="eu-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                        <a href="#" class="btn btn-gradient__green btn mt-4">
+                            More Team
+                            <span class="fas fa-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="eu-team" data-aos="fade-up" data-aos-duration="4000">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="eu-team__photo">
+                                    <div class="eu-team__wrapper">
+                                        <div class="eu-team__bg" style="background-image: url('assets/img/ava-rogelio.jpeg');"></div>
+                                        <div class="eu-team__overlay"></div>
+                                    </div>
+                                    <div class="eu-team__content">
+                                        <div class="eu-team-block">
+                                            <h4 class="eu-heading__h4">Rogelio C Jost</h4>
+                                            <span>Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="eu-team__photo">
+                                    <div class="eu-team__wrapper">
+                                        <div class="eu-team__bg" style="background-image: url('assets/img/ava-michael.jpeg');"></div>
+                                        <div class="eu-team__overlay"></div>
+                                    </div>
+                                    <div class="eu-team__content">
+                                        <div class="eu-team-block">
+                                            <h4 class="eu-heading__h4">Michael Picco</h4>
+                                            <span>Co-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand slide bottom -->
+    <section class="eu-section__brand" data-aos="fade-up">
+        <div class="container">
+            <h4 class="eu-heading__h4">Trusted by International Brand</h4>
+            <div class="eu-brand__slide-top owl-carousel owl-theme">
+                <div class="eu-slide__item item">
+                    <img src="assets/img/logo-avontur.png" alt="brand bottom1">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Carbon.png" alt="brand bottom2">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-goovi.png" alt="brand bottom3">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/hasto-logo.png" alt="brand bottom4">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Monstra.png" alt="brand bottom5">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/spora-logo_white.png" alt="brand bottom6">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/logo-avontur.png" alt="brand bottom7">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Carbon.png" alt="brand bottom8">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-goovi.png" alt="brand bottom9">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/hasto-logo.png" alt="brand bottom10">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Monstra.png" alt="brand bottom11">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/spora-logo_white.png" alt="brand bottom12">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/logo-avontur.png" alt="brand bottom13">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Carbon.png" alt="brand bottom14">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-goovi.png" alt="brand bottom15">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/hasto-logo.png" alt="brand bottom16">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/Logo-Monstra.png" alt="brand bottom17">
+                </div>
+                <div class="eu-slide__item item">
+                    <img src="assets/img/spora-logo_white.png" alt="brand bottom18">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="eu-section__footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <a href="#" class="eu-footer__logo">
+                            <img src="assets/img/Logo-eunoia.png" alt="logo footer">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <h5>Company</h5>
+                                    <ul class="eu-footer__nav list-unstyled">
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                About Us
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Our Team</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                Service
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Single Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Pricing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Portfolio</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                Page
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Service C1</a></li>
+                                                        <li><a href="#">Service C2</a></li>
+                                                        <li><a href="#">Service C3</a></li>
+                                                        <li><a href="#">Service C4</a></li>
+                                                        <li><a href="#">Service C5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Error 404</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h5>Help Center</h5>
+                                    <ul class="eu-footer__nav list-unstyled">
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                About Us
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Our Team</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                Service
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Single Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Pricing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Portfolio</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown">
+                                                Page
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu">
+                                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Service C1</a></li>
+                                                        <li><a href="#">Service C2</a></li>
+                                                        <li><a href="#">Service C3</a></li>
+                                                        <li><a href="#">Service C4</a></li>
+                                                        <li><a href="#">Service C5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Error 404</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5>Office</h5>
+                        <ul class="eu-footer__contact list-unstyled">
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/pin.svg" width="28" alt="">
+                                </div>
+                                <span>Jln Cempaka Wangi No 22, Jakarta - Indonesia</span>
+                            </li>
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/envelope.svg" width="28" alt="">
+                                </div>
+                                <span>support@domain.tld</span>
+                            </li>
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/survey.svg" width="28" alt="">
+                                </div>
+                                <span>+(62)21-2002-2012</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="eu-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span>
+                            &copy; 2021 Eunoia is Proudly Powered by MoxCreative
+                        </span>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="eu-footer__sosmed justify-content-sm-end list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-youtube"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="eu-header navbar navbar-expand-lg">
+        <div class="eu-header__logo">
+            <a href="#">
+                <img width="147"
+                    src="assets/img/Logo-eunoia.png"
+                    alt="logo navbar">
+            </a>
+        </div>
+        <div class="eu-header__navbar offcanvas offcanvas-collapse" id="offcanvasWithBackdrop">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" id="nav_home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="about.html" id="nav_about">
+                            About Us
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="active">
+                            <a href="about_our_team.html" id="nav_about_team" class="dropdown-item">Our Team</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="service.html" id="nav_service">
+                            Service
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="service_single.html" id="nav_service_single" class="dropdown-item">Single Service</a>
+                        </li>
+                        <li>
+                            <a href="service_pricing.html" id="nav_service_pricing" class="dropdown-item">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="service_portfolio.html" id="nav_service_portfolio" class="dropdown-item">Portfolio</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" id="nav_contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="#" id="nav_page">
+                            Page
+                            <span class="fas fa-angle-down"></span>
+                        </a>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="blog.html" id="nav_blog" class="dropdown-toggle" data-toggle="dropdown">
+                                Blog
+                                <div class="d-none d-lg-inline ml-auto">
+                                    <span class="fas fa-angle-right"></span>
+                                </div>
+                                <div class="d-lg-none ml-auto">
+                                    <span class="fas fa-angle-down"></span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog_archieve.html" id="nav_blog_archieve">Archieve</a></li>
+                                <li><a href="blog_detail.html" id="nav_blog_single">Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="404.html" id="nav_404" class="dropdown-item">Error 404</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="eu-header__right">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+                <span class="navbar-toggler-icon fas fa-bars"></span>
+            </button>
+            <div class="eu-header__btn">
+                <a href="#" class="btn-gradient__green btn">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <!-- headline -->
+    <section class="eu-section__headline">
+        <div class="eu-background-overlay"></div>
+        <div class="eu-headline__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="eu-heading__h1">Blog</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="eu-headline__breadcrumb list-unstyled justify-content-sm-end">
+                            <li><span>Home</span></li>
+                            <li><span class="fas fa-chevron-right"></span></li>
+                            <li><span>Blog</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- headline news -->
+    <section class="eu-section__blog_headline pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6">
+                    <div class="rounded-relative">
+                        <div class="rounded-abs" data-aos="zoom-in" data-aos-duration="4000">
+                            <img src="assets/img/rounded_1-p4ok40.png" alt="rounded">
+                        </div>
+                    </div>
+                    <div class="blog-headline__left">
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/social-media.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <span class="blog-badge">
+                            Featured
+                        </span>
+                        <div class="blog-headline__desc">
+                            <h3 class="eu-heading__h3">
+                                <a href="#">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</a>
+                            </h3>
+                            <p class="eu-heading__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mt-4 mt-md-0">
+                    <div class="blog-headline__right">
+                        <h4 class="eu-heading__h4">Featured Post</h4>
+                        <ul class="blog-featured__list list-unstyled clearfix">
+                            <li>
+                                <h3 class="eu-heading__h3">
+                                    <a href="">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</a>
+                                </h3>
+                                <div class="author-date">
+                                    <span>Michael Picco</span>
+                                    <span>/</span>
+                                    <span>February 17, 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="eu-heading__h3">
+                                    <a href="">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</a>
+                                </h3>
+                                <div class="author-date">
+                                    <span>Michael Picco</span>
+                                    <span>/</span>
+                                    <span>February 17, 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="eu-heading__h3">
+                                    <a href="">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</a>
+                                </h3>
+                                <div class="author-date">
+                                    <span>Michael Picco</span>
+                                    <span>/</span>
+                                    <span>February 17, 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="eu-heading__h3">
+                                    <a href="">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</a>
+                                </h3>
+                                <div class="author-date">
+                                    <span>Michael Picco</span>
+                                    <span>/</span>
+                                    <span>February 17, 2021</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- article -->
+    <section class="eu-section__article">
+        <div class="container">
+            <div class="rounded-abs rounded-top1" data-aos="zoom-in" data-aos-duration="4000">
+                <img width="41" src="assets/img/rounded_1-p4ok2.png" alt="rounded">
+            </div>
+            <div class="article-content">
+                <h6 class="eu-heading__h6">UPDATE</h6>
+                <div class="heading-circle">
+                    <h2 class="eu-heading__h2">Latest Article & News</h2>
+                    <div class="rounded-abs rounded-top2" data-aos="zoom-in" data-aos-duration="4000">
+                        <img src="assets/img/rounded_1-p4ok.png" alt="rounded">
+                    </div>
+                </div>
+                <div class="rounded-abs rounded-top3" data-aos="zoom-in" data-aos-duration="4000">
+                    <img src="assets/img/rounded_1-p4ok.png" alt="rounded">
+                </div>
+                <ul class="article-list list-unstyled">
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/social-media.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">What to Post on Each Social Media Platform: The Complete Guide to Optimizing Your Social Content</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/video-sharing-content-creator.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">Jazz up your profiles with a diverse content strategy.</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/looking-through-websites.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">Why You Need Search Engine Optimization?</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/young-woman-viewing-flower-website.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">How To Get Organic Traffic From Search Engine</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/vlogger-looking-at-webcam.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">What platforms does social media management cover?</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="article-tumbnail">
+                            <div class="img-tumbnail">
+                                <img src="assets/img/scrolling-through-their-social-media.jpeg" alt="img-tumbnail">
+                            </div>
+                        </a>
+                        <div class="desc-right">
+                            <h3 class="eu-heading__h3">What Is Social Media Management?</h3>
+                            <div class="author-date">
+                                <span>Michael Picco</span>
+                                <span>/</span>
+                                <span>February 17, 2021</span>
+                            </div>
+                            <p class="eu-heading__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam voluptas optio, doloribus aperiam autem alias incidunt molestias vitae facilis saepe dolore quae ipsum et, laborum veniam error rerum quam.
+                            </p>
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="eu-section__footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <a href="#" class="eu-footer__logo">
+                            <img src="assets/img/Logo-eunoia.png"
+                                alt="logo footer">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <h5>Company</h5>
+                                    <ul class="eu-footer__nav list-unstyled">
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                About Us
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Our Team</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                Service
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Single Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Pricing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Portfolio</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                Page
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Service C1</a></li>
+                                                        <li><a href="#">Service C2</a></li>
+                                                        <li><a href="#">Service C3</a></li>
+                                                        <li><a href="#">Service C4</a></li>
+                                                        <li><a href="#">Service C5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Error 404</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h5>Help Center</h5>
+                                    <ul class="eu-footer__nav list-unstyled">
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                About Us
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Our Team</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                Service
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Single Service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Pricing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Portfolio</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown">
+                                                Page
+                                                <span class="fas fa-sort-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Service C1</a></li>
+                                                        <li><a href="#">Service C2</a></li>
+                                                        <li><a href="#">Service C3</a></li>
+                                                        <li><a href="#">Service C4</a></li>
+                                                        <li><a href="#">Service C5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">Error 404</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5>Office</h5>
+                        <ul class="eu-footer__contact list-unstyled">
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/pin.svg" width="28" alt="img-tumbnail">
+                                </div>
+                                <span>Jln Cempaka Wangi No 22, Jakarta - Indonesia</span>
+                            </li>
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/envelope.svg" width="28" alt="img-tumbnail">
+                                </div>
+                                <span>support@domain.tld</span>
+                            </li>
+                            <li>
+                                <div class="footer-contact__icon">
+                                    <img src="assets/img/survey.svg" width="28" alt="img-tumbnail">
+                                </div>
+                                <span>+(62)21-2002-2012</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="eu-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span>
+                            &copy; 2021 Eunoia is Proudly Powered by MoxCreative
+                        </span>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="eu-footer__sosmed justify-content-sm-end list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fab fa-youtube"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
